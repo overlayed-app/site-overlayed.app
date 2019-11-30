@@ -17,6 +17,8 @@ jobs:
           node-version: 12.x
       - name: Setup GIT token
         uses: fregante/setup-git-token@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: npm install, deploy
         run: |
           npm ci
