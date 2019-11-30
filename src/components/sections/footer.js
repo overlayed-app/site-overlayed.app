@@ -10,7 +10,7 @@ const Footer = () => (
         <span>Resources</span>
         <ul>
           <li>
-            <a href="//dev.to/bengreenier/overlayed-dev---">Blog</a>
+            <a href="//dev.to/bengreenier/introducing-overlayed-streamer-overlays-powered-by-react-17ja">Blog</a>
           </li>
         </ul>
       </FooterColumn>
